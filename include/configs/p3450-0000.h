@@ -43,4 +43,7 @@
 /* Crystal is 38.4MHz. clk_m runs at half that rate */
 #define COUNTER_FREQUENCY	19200000
 
+/* Increase kernel image max size to 64M */
+#define CONFIG_SYS_BOOTM_LEN	SZ_64M
+
 #endif /* _P3450_0000_H */
