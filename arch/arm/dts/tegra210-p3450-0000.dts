@@ -129,7 +129,7 @@
 
 	usb@7d000000 {
 		status = "okay";
-		dr_mode = "peripheral";
+		dr_mode = "otg";
 	};
 
 	clocks {
